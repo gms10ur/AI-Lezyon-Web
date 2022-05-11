@@ -40,7 +40,7 @@ let model;
 (async function () {
 	
 	model = await tf.loadModel('http://skin.test.woza.work/model_kaggle_version12/model.json');
-	$("#selected-image").attr("src", "http://skin.test.woza.work/assets/samplepic.jpg")
+	$("#selected-image").attr("src", "http://skin.test.woza.work/assets/ISIC_0024334.jpg")
 	
 	
 	// Simulate a click on the predict button

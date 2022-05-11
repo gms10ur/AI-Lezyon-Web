@@ -34,7 +34,7 @@ let model;
 (async function () {
 	
 	model = await tf.loadModel('http://myrista.tplinkdns.com/final_model_kaggle_version1/model.json');
-	$("#selected-image").attr("src", "http://myrista.tplinkdns.com/assets/samplepic.jpg");
+	$("#selected-image").attr("src", "http://myrista.tplinkdns.com/assets/ISIC_0024334.jpg");
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:
@@ -109,7 +109,7 @@ $("#predict-button").click(async function () {
 	
 
 		// Append the file name to the prediction list
-		var file_name = 'samplepic.jpg';
+		var file_name = 'ISIC_0024334.jpg';
 		$("#prediction-list").append(`<li class="w3-text-blue fname-font" style="list-style-type:none;">${file_name}</li>`);
 		
 		//$("#prediction-list").empty();

@@ -46,7 +46,7 @@ let model;
 (async function () {
 	
 	model = await tf.loadModel('http://concept.test.woza.work/final_model_kaggle_version1/model.json');
-	$("#selected-image").attr("src", "http://concept.test.woza.work/assets/samplepic.jpg")
+	$("#selected-image").attr("src", "http://concept.test.woza.work/assets/ISIC_0024334.jpg")
 	
 	
 	

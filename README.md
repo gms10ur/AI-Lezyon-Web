@@ -49,7 +49,7 @@ Bu adımlar:
 
 ```
 model = await tf.loadModel('http://myrista.tplinkdns.com/model_kaggle_version12/model.json');
-$("#selected-image").attr("src", "http://myrista.tplinkdns.com/assets/samplepic.jpg")
+$("#selected-image").attr("src", "http://myrista.tplinkdns.com/assets/ISIC_0024334.jpg")
 ```
 
 3. Dosyaları ve klasörleri yüklemeyi bitirdikten sonra web sitenizin adresini tarayıcınıza yazın ve sitenize gidin. Tıpkı benimki gibi görünmeli ve çalışmalı. Dürüst olmalıyım, ilk kez bir web sitesi kurduğunuzda bazen sinir bozucu bir süreç olabilir. Ancak sabırlı olun çünkü sonunda her zaman işe yarar - biraz saç çektikten ve birkaç gözyaşından sonra.
