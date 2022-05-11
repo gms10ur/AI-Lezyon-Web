@@ -1,7 +1,7 @@
 
-## Skin-Lesion-Analyzer
+## Cilt-Lezyonu-Analizi
 
-Live Web App: http://myrista.tplinkdns.com
+Çalışan Web ygulaması: http://myrista.tplinkdns.com
 
 <br>
 
